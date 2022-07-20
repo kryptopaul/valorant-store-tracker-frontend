@@ -1,0 +1,19 @@
+.ValorantApp{
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 20%;
+    border-radius: 25px;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    
+    
+
+}
+.tfContainer{
+    margin: 25px;
+}
+.yourStore{
+    margin: 50px;
+    text-align: left;
+}
+
+

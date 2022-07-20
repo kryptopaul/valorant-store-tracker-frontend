@@ -30,7 +30,6 @@ export default function ValorantApp() {
             setLoginButtonLoading(false)
             return
         }
-        console.log('fetched' + skins.data)
         // Do after logged in
         setIsLoggedIn(true);
 

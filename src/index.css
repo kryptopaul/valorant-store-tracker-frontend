@@ -8,6 +8,8 @@ body {
   background-image: url("../public/pearl.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 code {

@@ -1,5 +1,5 @@
 .skinImage{
-    width: 200px;
+    width: 150px;
     height: auto;
     position: absolute;
     right: 0;
@@ -15,15 +15,12 @@
     position: relative;
     height: 150px;
     width: 200px;
-    background-color: rgb(255, 255, 255, 0);
-    border-radius: 25px;
 }
 
 .weaponItems{
-
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .weaponObject{
@@ -31,7 +28,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 25px;
+    border-radius: 10px;
     border: 1px solid black;
     margin: 10px;
 

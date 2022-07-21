@@ -24,7 +24,7 @@ export default function ValorantApp() {
         // Start spinning the circle
         if (login != null && password != null) {
         setLoginButtonLoading(true);
-        const skins = await axios.post('http://127.0.0.1:80/getSkinsWeb', {"login": `${login}`, "password": `${password}`});
+        const skins = await axios.post('https://valorantskinapi.azurewebsites.net/getSkinsWeb', {"login": `${login}`, "password": `${password}`});
         if (skins.data < 1) {
             setLoginError({isError: true, display: 'block'})
             setLoginButtonLoading(false)
